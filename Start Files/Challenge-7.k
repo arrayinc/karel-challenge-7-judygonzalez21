@@ -46,7 +46,7 @@ function putValentines(){
 		if (rightIsBlocked()){
 			putBeeper();
 		}
-	}	
+	}
 }
 
 function returnFirstAve(){
@@ -56,3 +56,13 @@ function returnFirstAve(){
 	}
 	turnAround();
 }
+
+/* ----- ET COMMENTS ------ */
+/* This works and solves the world! You could always go back
+and make it a little more general like having it being
+able to solve any size classroom with Valentines, which
+would just mean she would have to check all the rows
+instead of having hard coded numbers. For example, solving
+this without using the repeat control statement at the beginning.
+Nice work! :)
+*/
